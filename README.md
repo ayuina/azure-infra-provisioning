@@ -10,6 +10,13 @@ PS> git clone https://github.com/ayuina/azure-infra-provisioning.git
 PS> cd azure-infra-provisioning
 ```
 
+必要に応じて Azure Active Directory へのサインイン、および使用するサブスクリプションを選択します
+
+```powershell
+PS> Connect-AzAccount
+PS> Select-AzSubscription -Subscription 'subscription guid'
+```
+
 ## Infrastructure as a Service 構築デモ
 
 ![iaas demo](./assets/iaas-demo-overview.png)
