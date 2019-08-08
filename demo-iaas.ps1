@@ -7,8 +7,8 @@
 
 [CmdletBinding()]
 Param (
-    $name = "ayuina",
-    $region = "southeastasia",
+    [string]$name = "ayuina",
+    [string]$region = "southeastasia",
     $credential
 )
 
